@@ -1,5 +1,15 @@
 let str = "naman"
+
+bag="";
 for(i=str.length-1;i>=0;i--){
-      console.log(str[i]);
-  }
+    bag=bag+str[i];
+}
+
+if(bag==str){
+    console.log("Yes");
+} else {
+    console.log("No");
+}
+
+
 
